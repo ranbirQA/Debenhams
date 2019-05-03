@@ -17,7 +17,7 @@ private DriverFactory driverFactory = new DriverFactory();
 
  @After
  public void tearDown(){
-  driverFactory.closeBrowser();
+   driverFactory.closeBrowser();
  }
 
 }
