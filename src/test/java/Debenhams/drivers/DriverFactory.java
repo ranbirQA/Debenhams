@@ -44,15 +44,15 @@ public class DriverFactory {
       public void closeBrowser(){
         driver.quit();
 }
-public void applyImpWait(){
+      public void applyImpWait(){
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 }
-public void NavigateTo(String url){
+      public void NavigateTo(String url){
         driver.get(url);
 }
 //public void handlecookies (){driver.findElement(By.cssSelector("button.pw-button:nth-child(4) > div:nth-child(1)")).click();
-public void handlecookies(){driver.findElement(By.className("pw-button_inner")).click();}
-public void deletecookies(){driver.manage().deleteAllCookies();}
+      public void handlecookies(){driver.findElement(By.className("pw-button_inner")).click();}
+      public void deletecookies(){driver.manage().deleteAllCookies();}
 
 
 
